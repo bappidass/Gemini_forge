@@ -43,7 +43,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              onClick={()=>navigate('/process')}
+              onClick={()=>navigate('/services')}
               className="text-lg px-8 py-6 border-2 border-foreground/20 transition-all group"
             >
               View Our Services
