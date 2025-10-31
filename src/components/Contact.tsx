@@ -7,7 +7,7 @@ import { Slider } from "@/components/ui/slider";
 import { toast } from "sonner";
 
 const Contact = () => {
-  const [budget, setBudget] = useState([3000]);
+  const [budget, setBudget] = useState([12000]);
   const [selectedReasons, setSelectedReasons] = useState<string[]>([]);
 
   const reasons = ["Web Design", "Mobile App Design", "Coustome software", "Others"];
@@ -93,14 +93,14 @@ const Contact = () => {
               <Slider
                 value={budget}
                 onValueChange={setBudget}
-                min={1000}
-                max={100000}
+                min={12000}
+                max={1000000}
                 step={100}
                 className="mb-4"
               />
               <div className="flex justify-between text-sm">
                 <span className="text-accent font-bold">₹{budget[0]}</span>
-                <span className="text-muted-foreground">₹100000</span>
+                <span className="text-muted-foreground">₹1000000</span>
               </div>
             </div>
 
