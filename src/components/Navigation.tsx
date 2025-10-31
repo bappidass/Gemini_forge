@@ -10,7 +10,7 @@ const Navigation = () => {
   const navLinks = [
     { name: "Home", href: "/", isRoute: true },
     { name: "Services", href: "/services", isRoute: true },
-    { name: "Process", href: "#process", isRoute: false },
+    { name: "Process", href: "/process", isRoute: false },
     { name: "About", href: "#about", isRoute: false },
     { name: "Careers", href: "/careers", isRoute: false },
   ];
