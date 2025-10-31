@@ -12,7 +12,7 @@ const Navigation = () => {
     { name: "Services", href: "/services", isRoute: true },
     { name: "Process", href: "#process", isRoute: false },
     { name: "About", href: "#about", isRoute: false },
-    { name: "Careers", href: "#careers", isRoute: false },
+    { name: "Careers", href: "/careers", isRoute: false },
   ];
 
   return (
@@ -33,13 +33,13 @@ const Navigation = () => {
                   {link.name}
                 </Link>
               ) : (
-                <a
+                  <Link to={link.href}
                   key={link.name}
-                  href={link.href}
+            
                   className="text-foreground/80 hover:text-foreground transition-colors"
                 >
                   {link.name}
-                </a>
+                </Link>
               )
             )}
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
@@ -71,14 +71,13 @@ const Navigation = () => {
                     {link.name}
                   </Link>
                 ) : (
-                  <a
-                    key={link.name}
-                    href={link.href}
+                    <Link to={link.href}
+                  key={link.name}
                     className="text-foreground/80 hover:text-foreground transition-colors"
                     onClick={() => setIsOpen(false)}
                   >
                     {link.name}
-                  </a>
+                   </Link>
                 )
               )}
               <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 w-full">
