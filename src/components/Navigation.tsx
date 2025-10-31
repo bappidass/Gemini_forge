@@ -11,7 +11,7 @@ const Navigation = () => {
     { name: "Home", href: "/", isRoute: true },
     { name: "Our Services", href: "/services", isRoute: true },
     { name: "How We Work", href: "/process", isRoute: false },
-    { name: "About", href: "#about", isRoute: false },
+    { name: "About", href: "/About", isRoute: false },
     { name: "Careers", href: "/careers", isRoute: false },
   ];
 

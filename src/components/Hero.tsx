@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Sparkles, ArrowRight, Code2, Smartphone, Zap } from "lucide-react";
-
+import { useNavigate } from "react-router-dom";
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
       {/* Enhanced Background Effect */}
@@ -31,7 +32,7 @@ const Hero = () => {
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            We craft stunning <span className="text-foreground font-semibold">websites</span> and powerful <span className="text-foreground font-semibold">mobile apps</span> for businesses across{" "}
+           GeminiForge craft stunning <span className="text-foreground font-semibold">websites</span> and powerful <span className="text-foreground font-semibold">mobile apps</span> for businesses across{" "}
             <span className="text-accent font-semibold">E-Commerce</span>,{" "}
             <span className="text-accent font-semibold">Education</span>,{" "}
             <span className="text-accent font-semibold">Healthcare</span> & more
@@ -42,6 +43,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               variant="outline" 
+              onClick={()=>navigate('/process')}
               className="text-lg px-8 py-6 border-2 border-foreground/20 transition-all group"
             >
               View Our Services
