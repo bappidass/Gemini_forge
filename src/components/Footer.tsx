@@ -44,7 +44,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://instagram.com/yourhandle"
+              href="https://www.instagram.com/geminiforge.in?igsh=dDVzejZxa3Bmd21s"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Open Instagram"
