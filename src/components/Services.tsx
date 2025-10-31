@@ -1,7 +1,7 @@
 import { Paintbrush, Puzzle, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-
+import { useNavigate } from "react-router-dom";
 const services = [
   {
     icon: Paintbrush,
@@ -25,6 +25,7 @@ const services = [
 
 
 const Services = () => {
+  const navigate = useNavigate();
   return (
     <section id="services" className="py-24 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-muted/10 to-background" />
@@ -54,8 +55,8 @@ const Services = () => {
                   </CardDescription>
                 </CardContent>
                 <CardFooter>
-                  <Button variant="outline" className="w-full border-foreground/20 hover:border-foreground/40">
-                    Learn More
+                  <Button variant="outline" onClick={()=>navigate('/services')} className="w-full border-foreground/20 hover:border-foreground/40">
+                     More Details
                   </Button>
                 </CardFooter>
               </Card>
