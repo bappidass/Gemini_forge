@@ -47,7 +47,6 @@ const Navigation = () => {
             </Button>
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden text-foreground"
             onClick={() => setIsOpen(!isOpen)}
@@ -56,7 +55,6 @@ const Navigation = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden py-4 border-t border-border">
             <div className="flex flex-col gap-4">
