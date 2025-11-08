@@ -42,6 +42,27 @@ const Services = () => {
       description: "Tailored web solutions for your unique business needs with scalable architecture",
       category: "custom"
     }
+    ,{ 
+      icon: FileText, 
+      title: "AI & Automation",
+      description: "Integrating intelligent systems that enhance decision-making and efficiency",
+      category: "AI-automation"
+    } ,{ 
+      icon: Square, 
+      title: "Cloud Transformation ",
+      description: "Secure and scalable cloud migration and modernization.",
+      category: "Cloud-Transformation "
+    } ,{ 
+      icon: ShoppingBag, 
+      title: "Product Engineering ",
+      description: "End-to-end SaaS and digital product development services.",
+      category: "Product-Engineering "
+    },{ 
+      icon: FileText, 
+      title: "Digital Consulting ",
+      description: "Guiding enterprises through digital transformation and modernization.",
+      category: "Digital-Consulting "
+    }
   ];
 
   const appServices = [

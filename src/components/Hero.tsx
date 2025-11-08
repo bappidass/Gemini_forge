@@ -33,8 +33,9 @@ const Hero = () => {
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
            GeminiForge craft stunning <span className="text-foreground font-semibold">websites</span> and powerful <span className="text-foreground font-semibold">mobile apps</span> for businesses across{" "}
-            <span className="text-accent font-semibold">E-Commerce</span>,{" "}
-            <span className="text-accent font-semibold">Education</span>,{" "}
+            <span className="text-accent font-semibold">Financial Services</span>,{" "}
+            <span className="text-accent font-semibold">Retail</span>,{" "}
+                <span className="text-accent font-semibold">Energy, and Real Estate.</span>,{" "}
             <span className="text-accent font-semibold">Healthcare</span> & more
           </p>
 

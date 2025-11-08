@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Menu, X  } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/geminilogo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +20,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2">
-            <img src={logo} alt="GeminiForge" className="h-10 w-10 border-[1px] rounded-full border-white" />
+            <img src={logo} alt="GeminiForge" className="h-20 " />
           </Link>
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => 
