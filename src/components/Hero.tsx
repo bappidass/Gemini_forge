@@ -26,7 +26,7 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight ">
             <span className="block ">We develop fully</span>
             <span className="block bg-gradient-to-r from-accent via-primary to-accent bg-clip-text text-transparent bg-300% animate-gradient pb-3">
-             customized software solutions
+             Customized software solutions
             </span>
           </h1>
 
