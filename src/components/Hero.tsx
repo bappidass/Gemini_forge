@@ -24,9 +24,9 @@ const Hero = () => {
 
    
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight ">
-            <span className="block ">We Build Scalable</span>
-            <span className="block bg-gradient-to-r from-accent via-primary to-accent bg-clip-text text-transparent bg-300% animate-gradient pb-3">
-             Secure software solutions
+            <span className="block ">We Build <span className=" bg-gradient-to-r from-accent via-primary to-accent bg-clip-text text-transparent bg-300% animate-gradient ">Scalable</span></span>
+            <span className=" bg-gradient-to-r from-accent via-primary to-accent bg-clip-text text-transparent bg-300% animate-gradient pb-3">
+             Secure <span className="text-white">software solutions</span>
             </span>
           </h1>
 
@@ -35,7 +35,7 @@ const Hero = () => {
            GeminiForge craft stunning <span className="text-foreground font-semibold">websites</span> and powerful <span className="text-foreground font-semibold">mobile apps</span> for businesses across{" "}
             <span className="text-accent font-semibold">Financial Services</span>,{" "}
             <span className="text-accent font-semibold">Retail</span>,{" "}
-                <span className="text-accent font-semibold">Energy, and Real Estate.</span>,{" "}
+                <span className="text-accent font-semibold">Energy, and Real Estate</span>,{" "}
             <span className="text-accent font-semibold">Healthcare</span> & more
           </p>
 
