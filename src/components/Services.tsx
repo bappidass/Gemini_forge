@@ -1,4 +1,4 @@
-import { Paintbrush, Puzzle, Zap } from "lucide-react";
+import { Layers, Paintbrush, Palette, Puzzle, Search, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { useNavigate } from "react-router-dom";
@@ -7,19 +7,37 @@ const services = [
     icon: Paintbrush,
     title: "App Development",
     description:
-      "We build modern, high-performance mobile and web applications designed to deliver seamless user experiences. Our team focuses on clean architecture, scalable code, and intuitive interfaces that bring your ideas to life.",
+      "We build modern, high-performance mobile and web applications with clean architecture, scalable code, and intuitive interfaces that deliver seamless user experiences.",
   },
   {
     icon: Puzzle,
     title: "Web Development",
     description:
-      "We create fast, secure, and scalable websites tailored to your business goals. From front-end design to full-stack solutions, we use the latest technologies to deliver reliable and high-quality digital products.",
+      "We deliver fast, secure, and scalable websites tailored to your business needs—using modern technologies to create responsive, visually appealing, and high-performing digital products.",
   },
   {
     icon: Zap,
     title: "Custom Software",
     description:
-      "We develop custom software solutions built around your exact requirements. Whether automating workflows or creating enterprise-level systems, our team ensures efficiency, performance, and long-term scalability.",
+      "We develop fully customized software solutions designed around your unique requirements—automating workflows, improving efficiency, and supporting long-term scalability.",
+  },
+  {
+    icon: Search,
+    title: "SEO Optimization",
+    description:
+      "We improve your website’s ranking, visibility, and performance using modern SEO techniques—ensuring better traffic, faster load times, and stronger online presence.",
+  },
+  {
+    icon: Layers,
+    title: "Integrations",
+    description:
+      "We connect your systems, apps, and third-party platforms to work seamlessly together—streamlining your workflows and enabling smooth data synchronization.",
+  },
+  {
+    icon: Palette,
+    title: "Designs",
+    description:
+      "We create modern UI/UX designs, brand elements, and visual identities that make your product look stunning and feel intuitive for users.",
   },
 ];
 

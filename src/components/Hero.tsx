@@ -23,10 +23,10 @@ const Hero = () => {
    
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight">
-            <span className="block mb-2">Build Your</span>
-            <span className="block bg-gradient-to-r from-accent via-primary to-accent bg-clip-text text-transparent bg-300% animate-gradient">
-              Digital Empire
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight ">
+            <span className="block ">We develop fully</span>
+            <span className="block bg-gradient-to-r from-accent via-primary to-accent bg-clip-text text-transparent bg-300% animate-gradient pb-3">
+             customized software solutions
             </span>
           </h1>
 

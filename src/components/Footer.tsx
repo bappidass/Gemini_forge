@@ -1,6 +1,6 @@
 import { Mail, Phone } from "lucide-react";
 
-import logo from "@/assets/logo.png";
+import logo from "@/assets/geminilogo.png";
 import instaLogo from "@/assets/insta.png";
 import faceLogo from "@/assets/facebook.png";
 
@@ -19,7 +19,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-8">
           <div className="flex items-center gap-2">
-            <img src={logo} alt="GeminiForge" className="h-10 w-10 " />
+            <img src={logo} alt="GeminiForge" className="h-10  " />
           </div>
 
           <nav className="flex flex-wrap gap-6">
