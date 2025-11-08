@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="max-w-5xl mx-auto text-center space-y-8">
    
 
-          {/* Main Heading */}
+   
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight ">
             <span className="block ">We Build Scalable</span>
             <span className="block bg-gradient-to-r from-accent via-primary to-accent bg-clip-text text-transparent bg-300% animate-gradient pb-3">
